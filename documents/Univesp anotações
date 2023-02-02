@@ -1,0 +1,64 @@
+## Vídeo 1
+Data science = método científico para entgrega de resultados e compreender a realidade por uma linguagem estatística
+Método científico = conjunto de regras para se realiozar uma experiência, com o objetivo de produzir conhecimento não subjetivo
+Observação, questionamento, hipótese, experimento, análise, conclusão
+Ciência de dados = extração de conhecimento, detecção de padrões e obter insights para tomadas de decisão
+Criar hipóteses e confirmar a partir dos dados!
+Data science necessita de programação, estatística e matemática, analisar informações e resolver problemas, conhecer a área que o problema está sendo observado (exames, saúde, engenharia, entre outros) e também de negócios! Estimular o cérebro para ser um bom analista de dados
+
+Conclusão: um projeto de data science é baseado no método científico (Observ, questi, ...) onde deve-se descobrir conhecimento nos dados, não somente programar!
+
+
+## Vídeo 2
+Dado - informação - Conhecimento
+Big data - VOlume, variedade, velocidade
+Aplicar data science em um big data é essencial
+Dados estruturados = aqueles armazenados em bancos relacionais, em arquivo XML com clareza estrutural
+Dados não estruturados = aqueles de áudios, vídeos, imagens
+Dados semi-estruturados = arquivos tabulares, tags html
+BI = analisa dados do passado (marketing dando retorno)
+DS = análisa dados para projetar decisões (como investir nas próximas oportunidades)
+papel do cientista de dados:
+1. Planejar a coleta dos dados
+2. Analisar os dados
+3. Criar hipóteses
+4. Escolher, definir e criar modelos estatísticos
+5. Realizar muitos testes
+6. Demonstrar os resultados, contar histórias
+7. Estruturar um produto ou consumidor dos dados (API, container, alimentar outro sistema)
+Analista de dados = BI e cientista de dados = DS
+
+
+## Vídeo 3
+Biblioteca scikit-learn: para aprendizado de máquina e ajuste/ avaliação de modelos. Classificação é onde se encontra os modelos supervisionados
+Matplotlib: plotagem de gráficos
+Seaborn: mesma coisa do matplotlib, mas a ferramenta se adapta ao seu conjunto de dados! (neste vídeo ele usou o barplot em cima de outro!)
+.plot: é uma funcionalidade do pandas, exceto se utilizar plt.xxx
+Web scrapping: Processo de coletar dados de páginas na web, sem necessariamente acessar uma base de dados ou API
+Biblioteca: BeautifulSoup, busca a partir do html da página e seu seletores, utiliza o request! Muuuuito massa isso, pois tenho facilidade com HTML !!!
+
+## Vídeo 4
+Datasets:
+kaggle.com/datasets
+dados.gov.br/datasets
+https://github.com/govex/COVID-19/tree/master/data_tables/vaccine_data
+archive.ics.uci.edu/ml/datasets.php - machine learning
+https://github.com/awesomedata/awesome-public-datasets - github muito bom!
+API de teste: https://randomuser.me/api
+
+## Vídeo 5
+KDD (descoberta de conhecimento em databases) e Análise de dados
+BPLAMAPD, segundo a figura sobre DS
+KDD - Dados, Seleção, Pré-processamento, transformação, data mining, interpretação, consolidação de conhecimento
+Análise exploratória: observar os dados antes mesmo de aplicar modelos, qual a importânica dos atributos e o que representa daca infomração
+Bibliteca legal para uso: sweetviz (pip install sweetviz / import sweetviz as sw)
+Para gráficos utilizou um mapa de calor interessante com o seaborn (heatmap)
+Matriz de correlação de pearson: onde relaciona variáveis por um cociente que vai de -1 a 1 (0 é sem correlação alguma, -1 é correlação negativa perfeita)
+
+Artigo sobre Shapey values e game theory
+
+
+
+
+NÃO É SOBRE PREVER NOTA, MAS EXPLICAR PORQUE TIRARAM AQUILO!
+Com loc (nomes) e iloc (inteiro) eu consigo selecionar partes de um df e colocar a média, mediana, moda (frequência)! https://acervolima.com/selecione-linhas-e-colunas-por-nome-ou-indice-no-pandas-dataframe-usando-loc-e-iloc/
