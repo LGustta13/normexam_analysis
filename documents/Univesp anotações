@@ -57,8 +57,22 @@ Matriz de correlação de pearson: onde relaciona variáveis por um cociente que
 
 Artigo sobre Shapey values e game theory
 
+## Vídeo 6
+ML supervisionado ou preditivo: é a situação onde existe dados de entrada e o resultado esperado. Pode resolver problemas de regressão (mapeia valores numéricos - tempo internação de paciente, nota de aluno), ou de classificação (associa descrições de um objeto a uma classe - sintoma de qual doença)
+ML não supervisionado ou descritivo: para agrupar objetos com suas características, criando associações entre eles. Resolve problemas de Agrupamento (segundo suas similaridades), Sumarização (descrição simples de um conjunto de dados), Associação (algum padrão frequente)
+Treino e teste (8/2)
+Overfitting: funciona bem com os dados de treinamento mas não com os testes
+Underfitting: funciona mal por não capurar todos os aspectos e variabilidade dos dados
+Viés ou bias (pouca relação entre as variáveis)
+Variãncia (sensibilidade do modelo,. geralmente se é sensível no treinamento, pode não acertar nos testes)
+Regularização: penalizar alguns dados para evitar variância alta 
 
+Na maioria das vezes o modelo chega em um overfitting, partindo deste ponto vamos ajustando
 
+## Vídeo 7
+Predição -> machine learning e modelagem estatística com alto índice de acerto
+Classificar hipóteses pelos modelos de ML de acordo com a probabilidade de acontecerem
+Testar mais de um algoritmo de ML
 
 NÃO É SOBRE PREVER NOTA, MAS EXPLICAR PORQUE TIRARAM AQUILO!
 Com loc (nomes) e iloc (inteiro) eu consigo selecionar partes de um df e colocar a média, mediana, moda (frequência)! https://acervolima.com/selecione-linhas-e-colunas-por-nome-ou-indice-no-pandas-dataframe-usando-loc-e-iloc/
